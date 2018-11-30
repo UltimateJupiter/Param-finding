@@ -14,5 +14,5 @@ def ret_parse():
         queue.append(ret)
     
     arr = np.asarray(queue) 
-    arr = arr/100
+    # arr = arr/100
     return arr
