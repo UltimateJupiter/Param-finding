@@ -5,7 +5,7 @@ def ret_parse():
     
     queue = list()
     ls = [n for n in fl]
-    assert len(ls) == 157, len(ls)
+    assert len(ls) == 147, len(ls)
 
     for line in ls:
 
