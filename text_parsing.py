@@ -5,12 +5,12 @@ def ret_parse():
     
     queue = list()
     ls = [n for n in fl]
-    assert len(ls) == 147, len(ls)
+    assert len(ls) == 15, len(ls)
 
     for line in ls:
 
         tmp = line.split("|")
-        ret = int(float(tmp[1]))
+        ret = float(tmp[1])/100
         queue.append(ret)
     
     arr = np.asarray(queue) 
